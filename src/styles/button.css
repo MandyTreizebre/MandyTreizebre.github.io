@@ -1,0 +1,17 @@
+.container-link-first-section a,
+.container-third-section-home a {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, var(--color-blue), var(--color-blue-button));
+    cursor: pointer; 
+    transition: transform 0.3s ease;
+    padding: 15px 40px;
+    border-radius: 30px;
+    z-index: 1;
+    font-family: var(--common-font);
+}
+
+.container-link-first-section a:hover,
+.container-third-section-home a:hover {
+    transform: scale(1.05);
+}

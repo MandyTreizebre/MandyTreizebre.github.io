@@ -1,0 +1,36 @@
+.container-first-section-home  {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 50px;
+}
+
+/* Section with titles */
+.container-first-section-home h1, h2, h3 {
+    font-family: var(--font-title);
+    color: var(--color-font);
+}
+
+.container-first-section-home h1 {
+    font-size: 2.3rem;
+}
+
+.container-first-section-home h2 {
+    font-style: italic;
+    color: var(--color-grey);
+    width: 40%;
+    margin: 35px auto;
+}
+
+/* Section with call to action */
+.container-link-first-section {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+
+
+
+
+

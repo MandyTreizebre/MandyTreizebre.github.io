@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(0deg, #ffffff 0%, #f7ebee 50%, #bed7fc 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+:root {
+  --font-title: 'montserrat', Helvetica, sans-serif;
+  --common-font: 'karla', Helvetica, sans-serif;
+  --common-font-bold: 'karla-bold', Helvetica, sans-serif;
+  --common-font-medium: 'karla-medium', Helvetica, sans-serif;
+  --color-font: #12123E;
+  --color-blue: #21b0d9;
+  --color-blue-button: #6398dc;
+  --color-pink: #CF309B;
+  --color-grey: #424255;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat-SemiBold.ttf); 
+}
+
+@font-face {
+  font-family: "karla";
+  src: url(../assets/fonts/Karla-Regular.ttf); 
+}
+
+@font-face {
+  font-family: "karla-medium";
+  src: url(../assets/fonts/Karla-Medium.ttf); 
+}
+
+@font-face {
+  font-family: "karla-bold";
+  src: url(../assets/fonts/Karla-SemiBold.ttf); 
+}
